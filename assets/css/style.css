@@ -172,6 +172,42 @@ body {
   background: linear-gradient(to bottom, #ffce67, #fdedca);
 }
 
+/* Popular Items Section */
+.popular-card-btn {
+  background-color: var(--warning-color);
+  color: white;
+  transition: 0.3s linear all;
+  -webkit-transition: 0.3s linear all;
+  -moz-transition: 0.3s linear all;
+  -ms-transition: 0.3s linear all;
+  -o-transition: 0.3s linear all;
+}
+
+.popular-card-btn:hover {
+  background-color: #f17228da;
+}
+
+.next,
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.next {
+  left: unset;
+  right: 5%;
+}
+
+
+/* Restaurant Section */
+.restaurants-card {
+  display: flex;
+  justify-content: center;
+}
+
 @keyframes hero-image {
   from {
     transform: rotate(0);
@@ -190,7 +226,7 @@ body {
 }
 /* Extra Small Devices (Phones, 576px and under)*/
 
-@media screen and (width <= 576px){
+@media screen and (width <= 576px) {
   .header-section {
     padding: 10px 5px !important;
   }
@@ -211,5 +247,4 @@ body {
   .header-section .location {
     font-size: 15px;
   }
-
 }

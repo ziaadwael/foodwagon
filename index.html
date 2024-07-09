@@ -26,6 +26,7 @@
     <title>Foodwagon | Online Food Delivery Platform</title>
   </head>
   <body>
+    <!-- Hero Section -->
     <section class="hero-section">
       <header class="header-section">
         <div class="logo">
@@ -124,6 +125,7 @@
         </div>
       </div>
     </section>
+    <!-- Flash Deals -->
     <section class="container w-100 mt-4">
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col">
@@ -204,6 +206,7 @@
         </div>
       </div>
     </section>
+    <!-- Feature Section -->
     <section class="feature-section container-fluid mt-5 px-5">
       <h1 class="section-title">How Does it work</h1>
       <div
@@ -216,7 +219,7 @@
             <img src="./assets/images/map-icon.png" alt="map-icon" />
           </div>
           <h3 class="fs-2 text-body-emphasis">Select Location</h3>
-          <p class="text-muted">
+          <p class="text-secondary">
             Choose the location where your food will be delivered.
           </p>
         </div>
@@ -230,7 +233,7 @@
             />
           </div>
           <h3 class="fs-2 text-body-emphasis">Choose Order</h3>
-          <p class="text-muted">
+          <p class="text-secondary">
             Check over hundreds of menus to pick your favorite food
           </p>
         </div>
@@ -244,7 +247,7 @@
             />
           </div>
           <h3 class="fs-2 text-body-emphasis">Pay Advanced</h3>
-          <p class="text-muted">
+          <p class="text-secondary">
             It's quick, safe, and simple. Select several methods of payment
           </p>
         </div>
@@ -255,12 +258,590 @@
             <img src="./assets/images/Donut.png" alt="Donut-icon" />
           </div>
           <h3 class="fs-2 text-body-emphasis">Enjoy meals</h3>
-          <p class="text-muted">
+          <p class="text-secondary">
             Food is made and delivered directly to your home.
           </p>
         </div>
       </div>
     </section>
+    <!-- Popular Items Section -->
+    <section class="popular-items position-relative">
+      <h2 class="section-title">Popular Items</h2>
+      <div class="prev">👈</div>
+      <div
+        class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-4"
+        style="margin: 0 10%"
+      >
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./assets/images/item-1.png"
+              alt="Title"
+            />
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">Cheese Burger</h4>
+              <div class="card-text" style="color: var(--warning-color)">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="text" style="margin-bottom: 5px">Burger Area</p>
+              </div>
+              <h5 class="card-title">$3.88</h5>
+              <button class="btn w-100 popular-card-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./assets/images/item-1.png"
+              alt="Title"
+            />
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">Cheese Burger</h4>
+              <div class="card-text" style="color: var(--warning-color)">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="text" style="margin-bottom: 5px">Burger Area</p>
+              </div>
+              <h5 class="card-title">$3.88</h5>
+              <button class="btn w-100 popular-card-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./assets/images/item-1.png"
+              alt="Title"
+            />
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">Cheese Burger</h4>
+              <div class="card-text" style="color: var(--warning-color)">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="text" style="margin-bottom: 5px">Burger Area</p>
+              </div>
+              <h5 class="card-title">$3.88</h5>
+              <button class="btn w-100 popular-card-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./assets/images/item-1.png"
+              alt="Title"
+            />
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">Cheese Burger</h4>
+              <div class="card-text" style="color: var(--warning-color)">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="text" style="margin-bottom: 5px">Burger Area</p>
+              </div>
+              <h5 class="card-title">$3.88</h5>
+              <button class="btn w-100 popular-card-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="next">👉</div>
+    </section>
+    <!-- Featured Restaurants -->
+    <section class="restaurants container mt-5 px-5">
+      <h2 class="section-title">Featured Restaurants</h2>
+      <div class="row">
+        <div class="col restaurants-card">
+          <div class="card" style="width: 18rem">
+            <div class="position-relative">
+              <img
+                src="./assets/images/restaurnt-1.png"
+                class="card-img-top"
+                alt="Delicious Food"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="position-absolute top-0 start-0 p-2">
+                <span class="badge bg-danger me-1">20% off</span>
+                <span class="badge bg-warning text-dark">Fast</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img
+                  src="./assets/images/food-world.png"
+                  alt="Restaurant Logo"
+                  class="rounded-circle me-2"
+                  style="width: 30px; height: 30px"
+                />
+                <div>
+                  <h5 class="card-title mb-0">Foodworld</h5>
+                  <small class="text-warning">⭐ 46</small>
+                </div>
+              </div>
+              <div>
+                <span class="badge bg-danger text-white">Opens tomorrow</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col restaurants-card">
+          <div class="card" style="width: 18rem">
+            <div class="position-relative">
+              <img
+                src="./assets/images/restaurnt-2.png"
+                class="card-img-top"
+                alt="Delicious Food"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="position-absolute top-0 start-0 p-2">
+                <span class="badge bg-danger me-1">15% off</span>
+                <span class="badge bg-warning text-dark">Fast</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img
+                  src="./assets/images/pizza-hut.png"
+                  alt="Restaurant Logo"
+                  class="rounded-circle me-2"
+                  style="width: 30px; height: 30px"
+                />
+                <div>
+                  <h5 class="card-title mb-0">Pizzahub</h5>
+                  <small class="text-warning">⭐ 40</small>
+                </div>
+              </div>
+              <div>
+                <span class="badge bg-danger text-white">Opens tomorrow</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col restaurants-card">
+          <div class="card" style="width: 18rem">
+            <div class="position-relative">
+              <img
+                src="./assets/images/restaurnt-3.png"
+                class="card-img-top"
+                alt="Delicious Food"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="position-absolute top-0 start-0 p-2">
+                <span class="badge bg-danger me-1">10% off</span>
+                <span class="badge bg-warning text-dark">Fast</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img
+                  src="./assets/images/donuts-hut-1.png"
+                  alt="Restaurant Logo"
+                  class="rounded-circle me-2"
+                  style="width: 30px; height: 30px"
+                />
+                <div>
+                  <h5 class="card-title mb-0">Donuts hut</h5>
+                  <small class="text-warning">⭐ 20</small>
+                </div>
+              </div>
+              <div>
+                <span class="badge bg-primary text-white">Opens Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col restaurants-card">
+          <div class="card" style="width: 18rem">
+            <div class="position-relative">
+              <img
+                src="./assets/images/restaurnt-4.png"
+                class="card-img-top"
+                alt="Delicious Food"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="position-absolute top-0 start-0 p-2">
+                <span class="badge bg-danger me-1">15% off</span>
+                <span class="badge bg-warning text-dark">Fast</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img
+                  src="./assets/images/donuts-hut-2.png"
+                  alt="Restaurant Logo"
+                  class="rounded-circle me-2"
+                  style="width: 30px; height: 30px"
+                />
+                <div>
+                  <h5 class="card-title mb-0">Donuts hut</h5>
+                  <small class="text-warning">⭐ 50</small>
+                </div>
+              </div>
+              <div>
+                <span class="badge bg-primary text-white">Opens Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col restaurants-card">
+          <div class="card" style="width: 18rem">
+            <div class="position-relative">
+              <img
+                src="./assets/images/restaurnt-5.png"
+                class="card-img-top"
+                alt="Delicious Food"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="position-absolute top-0 start-0 p-2">
+                <span class="badge bg-danger me-1">10% off</span>
+                <span class="badge bg-warning text-dark">Fast</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img
+                  src="./assets/images/ruby-tuesday.png"
+                  alt="Restaurant Logo"
+                  class="rounded-circle me-2"
+                  style="width: 30px; height: 30px"
+                />
+                <div>
+                  <h5 class="card-title mb-0">Ruby Tuesday</h5>
+                  <small class="text-warning">⭐ 26</small>
+                </div>
+              </div>
+              <div>
+                <span class="badge bg-primary text-white">Opens Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col restaurants-card">
+          <div class="card" style="width: 18rem">
+            <div class="position-relative">
+              <img
+                src="./assets/images/restaurnt-6.png"
+                class="card-img-top"
+                alt="Delicious Food"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="position-absolute top-0 start-0 p-2">
+                <span class="badge bg-danger me-1">25% off</span>
+                <span class="badge bg-warning text-dark">Fast</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img
+                  src="./assets/images/kfc.png"
+                  alt="Restaurant Logo"
+                  class="rounded-circle me-2"
+                  style="width: 30px; height: 30px"
+                />
+                <div>
+                  <h5 class="card-title mb-0">Kuakata Fried Chicken</h5>
+                  <small class="text-warning">⭐ 53</small>
+                </div>
+              </div>
+              <div>
+                <span class="badge bg-primary text-white">Opens Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col restaurants-card">
+          <div class="card" style="width: 18rem">
+            <div class="position-relative">
+              <img
+                src="./assets/images/restaurnt-4.png"
+                class="card-img-top"
+                alt="Delicious Food"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="position-absolute top-0 start-0 p-2">
+                <span class="badge bg-danger me-1">10% off</span>
+                <span class="badge bg-warning text-dark">Fast</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img
+                  src="./assets/images/red-square.png"
+                  alt="Restaurant Logo"
+                  class="rounded-circle me-2"
+                  style="width: 30px; height: 30px"
+                />
+                <div>
+                  <h5 class="card-title mb-0">Red Square</h5>
+                  <small class="text-warning">⭐ 45</small>
+                </div>
+              </div>
+              <div>
+                <span class="badge bg-primary text-white">Opens Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col restaurants-card">
+          <div class="card" style="width: 18rem">
+            <div class="position-relative">
+              <img
+                src="./assets/images/restaurnt-8.png"
+                class="card-img-top"
+                alt="Delicious Food"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="position-absolute top-0 start-0 p-2">
+                <span class="badge bg-danger me-1">10% off</span>
+                <span class="badge bg-warning text-dark">Fast</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img
+                  src="./assets/images/taco-bell.png"
+                  alt="Restaurant Logo"
+                  class="rounded-circle me-2"
+                  style="width: 30px; height: 30px"
+                />
+                <div>
+                  <h5 class="card-title mb-0">Taco Bell</h5>
+                  <small class="text-warning">⭐ 35</small>
+                </div>
+              </div>
+              <div>
+                <span class="badge bg-primary text-white">Opens Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <div class="container-fluid bg-dark" id="footer-section">
+      <footer class="container py-5 pb-0">
+        <div class="row pt-4">
+          <h5 class="text-white mb-4">Our top cities</h5>
+          <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >San Francisco</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Miami</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">San Diego</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">East Bay</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Long Beach</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Los Angeles</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >Washington DC</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Seattle</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Portland</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Nashville</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >New York City</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >Orange County</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Atlanta</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Charlotte</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Denver</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Chicago</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Phoenix</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Las Vegas</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Sacramento</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >Oklahoma City</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Columbus</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">New Mexico</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Albuquerque</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Sacramento</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">New Orleans</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row border-top pt-4">
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="text-white">Company</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">About Us</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Team</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Careers</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="text-white">Contact</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >Help & Support</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >Partners with us</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">Ride with us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="text-white">Legal</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >Refund & Cancellation</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-secondary"
+                  >Cookie Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form class="text-white">
+              <h5 class="text-uppercase">Follow us</h5>
+              <div class="social-icons">
+                <a href="#" class="text-white h3"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="#" class="text-white h3"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a href="#" class="text-white h3"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </div>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2 mt-3">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p class="text-white">© 2024 Company, Inc. All rights reserved.</p>
+          <p class="text-white">
+            Made With <span class="text-warning">&hearts;</span>
+            <span class="fw-bold"
+              ><a href="https://www.linkedin.com/in/ziaadwaael"
+                >Ziad Wael</a
+              ></span
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
     <!-- Bootstrap JS Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS File -->
