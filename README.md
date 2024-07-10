@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Foodwagon** is a modern and responsive food delivery landing page designed to showcase food delivery services. This project utilizes HTML, CSS, JavaScript, and Bootstrap to create a visually appealing and user-friendly interface.
+**Foodwagon** is a modern and responsive food delivery landing page designed to showcase food delivery services. This project utilizes HTML, CSS, and Bootstrap to create a visually appealing and user-friendly interface.
 
 ![Foodwagon Screenshot](./foodwagon.png)
 
@@ -17,7 +17,6 @@
 
 - **HTML**: Markup language used for structuring the web page.
 - **CSS**: Stylesheet language used for describing the presentation of the web page.
-- **JavaScript**: Programming language used to create interactive effects and functionalities.
 - **Bootstrap**: Framework used to develop responsive and mobile-first web pages.
 
 ## Installation
@@ -25,13 +24,13 @@
 To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/ziaadwael/foodwagon.git
-    ```
+   ```bash
+   git clone https://github.com/ziaadwael/foodwagon.git
+   ```
 2. **Navigate to the project directory**:
-    ```bash
-    cd foodwagon
-    ```
+   ```bash
+   cd foodwagon
+   ```
 3. **Open `index.html` in your preferred browser**.
 
 ## Usage
@@ -63,4 +62,3 @@ Contributions are what make the open-source community such an amazing place to b
 - **Email**: ziadwaelelfeky@gmail.com
 
 Project Link: [https://github.com/ziaadwaael/foodwagon](https://github.com/ziaadwaael/foodwagon)
-
